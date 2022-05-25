@@ -1,5 +1,5 @@
 // Everything on the blockchain is public -- even private state variables
-// We might not be able to read them through Solidity, but we can use
+// We might not be able to read them through other contracts, but we can use
 //  web3.eth.getStorageAt() to get the storage at a specific position of an
 //  address
 
