@@ -29,7 +29,7 @@ Then, one would expect that the contact state variable in AlienCodex would
 
 // this means that
 await web3.eth.getStorageAt(instance, 0);
-// >> returns 0x**********************[contact boolean][owner address for 20 bytes]
+// >> returns 0x**********************[contact boolean as 1 hex digit][owner address for 20 bytes]
 
 // And we see how the two state variables are packed into one storage slot
 
