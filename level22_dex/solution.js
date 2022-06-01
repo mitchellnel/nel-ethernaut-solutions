@@ -26,7 +26,7 @@ let tokenB = await contract.token2();
 // Let's try the simplest way to do this: swap our 10 of Token A for Token B
 //  using the Dex
 
-await contract.approve(instance, 10);
+await contract.approve(instance, 1000000);
 
 await contract.swap(tokenA, tokenB, 10);
 
